@@ -5,4 +5,4 @@ eureka:
     hostname: node2
   client:
     serviceUrl:
-      defaultZone: http://node1:9091/rg/,http://node3:9093/rg/
+      defaultZone: http://node1:9091/eureka/,http://node3:9093/eureka/
