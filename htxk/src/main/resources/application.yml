@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: csx
+eureka:
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+
+

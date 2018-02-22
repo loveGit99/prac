@@ -1,13 +1,8 @@
-spring:
-  application:
-    name: csx
 server:
   port: 9091
 eureka:
   instance:
     hostname: node1
   client:
-    service-url:
+    serviceUrl:
       defaultZone: http://node2:9092/rg/,http://node3:9093/rg/
-    fetch-registry: true
-    register-with-eureka: true

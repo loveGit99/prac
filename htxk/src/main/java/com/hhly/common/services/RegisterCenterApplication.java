@@ -1,3 +1,4 @@
+
 package com.hhly.common.services;
 
 import org.springframework.boot.SpringApplication;
@@ -10,10 +11,6 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class RegisterCenterApplication {
 
 	public static void main(String[] args) {
-		new SpringApplicationBuilder(RegisterCenterApplication.class)
-				.web(true)
-				.run(args);
-
-
+		new SpringApplicationBuilder(RegisterCenterApplication.class).web(true).run(args);
 	}
 }
